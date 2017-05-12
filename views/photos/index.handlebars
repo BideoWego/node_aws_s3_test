@@ -1,0 +1,23 @@
+
+
+<header class="page-header">
+  <h1>Photos Index</h1>
+  <a href="/photos/new">+ New Photo</a>
+</header>
+
+
+<div class="row">
+  {{#each photos as |photo key| }}
+    <div class="col-xs-4">
+      <p>{{ photo.name }}</p>
+      <img src="{{ photo.url }}" alt="Photo" class="img-responsive">
+    </div>
+  {{/each }}
+</div>
+
+
+
+
+
+
+
