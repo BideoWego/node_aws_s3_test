@@ -12,13 +12,13 @@ node_aws_s3_test
 
 1. Create a `.env` file with your AWS credentials
 
-```bash
-// .env
+    ```bash
+    // .env
 
-AWS_ACCESS_KEY_ID='YOUR ACCESS KEY ID'
-AWS_SECRET_ACCESS_KEY='YOUR SECRET ACCESS KEY'
-AWS_S3_BUCKET='YOUR BUCKET NAME'
-```
+    AWS_ACCESS_KEY_ID='YOUR ACCESS KEY ID'
+    AWS_SECRET_ACCESS_KEY='YOUR SECRET ACCESS KEY'
+    AWS_S3_BUCKET='YOUR BUCKET NAME'
+    ```
 
 1. Start up the app and create a photo with the form!
 
